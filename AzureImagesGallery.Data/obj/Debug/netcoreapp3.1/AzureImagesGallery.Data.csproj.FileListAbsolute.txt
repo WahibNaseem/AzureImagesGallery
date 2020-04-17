@@ -1,0 +1,12 @@
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\bin\Debug\netcoreapp3.1\AzureImagesGallery.Data.deps.json
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\bin\Debug\netcoreapp3.1\AzureImagesGallery.Data.dll
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.csprojAssemblyReference.cache
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.AssemblyInfoInputs.cache
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.AssemblyInfo.cs
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\bin\Debug\netcoreapp3.1\AzureImagesGallery.Data.runtimeconfig.json
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\bin\Debug\netcoreapp3.1\AzureImagesGallery.Data.runtimeconfig.dev.json
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\bin\Debug\netcoreapp3.1\AzureImagesGallery.Data.pdb
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.csproj.CoreCompileInputs.cache
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.dll
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.pdb
+C:\code workcamp\Tutorial\ImagesGallery\AzureImagesGallery.Data\obj\Debug\netcoreapp3.1\AzureImagesGallery.Data.genruntimeconfig.cache
