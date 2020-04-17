@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wahib N\\source\\repos\\AzureImagesGallery\\AzureImagesGallery.csproj",
+      "projectUniqueName": "C:\\code workcamp\\Tutorial\\ImagesGallery\\AzureImagesGallery\\AzureImagesGallery.csproj",
       "projectName": "AzureImagesGallery",
-      "projectPath": "C:\\Users\\Wahib N\\source\\repos\\AzureImagesGallery\\AzureImagesGallery.csproj",
+      "projectPath": "C:\\code workcamp\\Tutorial\\ImagesGallery\\AzureImagesGallery\\AzureImagesGallery.csproj",
       "packagesPath": "C:\\Users\\Wahib N\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wahib N\\source\\repos\\AzureImagesGallery\\obj\\",
+      "outputPath": "C:\\code workcamp\\Tutorial\\ImagesGallery\\AzureImagesGallery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
