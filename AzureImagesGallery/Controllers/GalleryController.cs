@@ -88,6 +88,22 @@ namespace AzureImagesGallery.Controllers
             };
             return View(model);
         }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var image = await _imageService.FindByIdAsync(id);
+
+            var model = new GalleryImageDetailModel
+            {
+                Id = image.Id,
+                Title = image.Title,
+                Url = image.Url,
+                CreatedOn = image.Created,
+                Tags = image.Tags?.Select(x => x.Description).ToList()
+            };
+
+            return View(model);
+        }
     }
 
 }
