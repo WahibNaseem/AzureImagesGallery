@@ -2,7 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AzureImagesGallery.Data.Domains.Repositories;
+using AzureImagesGallery.Data.Domains.Services;
 using AzureImagesGallery.Data.Persistance.Context;
+using AzureImagesGallery.Data.Persistance.Repositories;
+using AzureImagesGallery.Service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +35,9 @@ namespace AzureImagesGallery
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefualtConnection"));
             });
+
+            services.AddScoped<IImageRepository, ImageRepository>();
+            services.AddScoped<IImageService, ImageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,7 +64,7 @@ namespace AzureImagesGallery
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Gallery}/{action=Index}/{id?}");
             });
         }
     }
